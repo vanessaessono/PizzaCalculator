@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+header {
+    background-color:green;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:green;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+nav {
+    line-height:30px;
+    background-color:lightgray;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> PLACE YOUR ORDER </h1>
+</header>
+
+<nav>
+<a href="/PizzaOrderProject/searchOrder.html">Search Order</a> <br>
+</nav>
+
+<section>
+	<h1>Customer Order</h1>
+	
+	<form action="SearchOrder" method="POST">
+		
+	</form>
+	
+	<form action="SearchOrder" method="POST" >
+		
+		Customer Name: <input type="text" name="username"> <br />
+		
+		<p>TOPPINS</p>
+		<div>
+		<input type="checkbox"  name="toppings" > <label >Sausage</label>
+		</div>
+		<div>
+		<input type="checkbox" name="toppings"> <label >Pepperoni</label>
+		</div>
+		<div>
+		<input type="checkbox" name="toppings"> <label>Olives</label>
+		</div>
+		<div>
+		<input type="checkbox" name="toppings"> <label>Mushrooms</label>
+		</div>
+		<input type="checkbox" name="toppings"> <label>Salami</label>
+		</div>
+		<div>
+		<input type="checkbox" name="toppings"> <label>Anchovies</label>
+		</div>
+		<div>
+		  <p>Please select the size of your pizza:</p>  
+		  <input type="radio" name="size">
+		  <label >Small size</label><br>
+		  <input type="radio" name="size">
+		  <label >Medium size</label><br>  
+		  <input type="radio" name="size">
+		  <label >Large size</label><br><br>
+		</div>
+		  
+		  <input type="submit" value="Submit">
+	</form>
+</div>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
